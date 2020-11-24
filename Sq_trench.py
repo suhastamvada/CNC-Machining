@@ -3,7 +3,7 @@ import sys
 
 
 depth = 10
-DOC = 0.1
+DOC = 0.2
 count = int(depth / DOC)
 dia = 3.175
 xl = 20
@@ -22,8 +22,8 @@ h, v = 1, 1
 
 for j in range(1, count + 1):
     x, y = 0, 0
-    Sq.horizontal(xl - (2 * dia))
-    Sq.vertical(yl - (2 * dia))
+    Sq.horizontal(xl - dia)
+    Sq.vertical(yl - dia)
     Sq.horizontal(0)
     Sq.vertical(0)
     if j < count:
