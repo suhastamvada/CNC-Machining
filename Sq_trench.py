@@ -16,8 +16,8 @@ print("G21")
 print("M6 T1")
 print("M03 S8556")
 print("G00 Z2")
-print("G01 Z-0.1 F150.0")
-z = -0.1
+print("G01 Z-0.2 F150.0")
+z = -0.2
 h, v = 1, 1
 
 for j in range(1, count + 1):
